@@ -3,7 +3,13 @@
 from src.EnvSupport import *
 
 foundOS = CheckOS()
-envManaged = CheckEnv(foundOS)
+
+envManaged = CheckEnv(foundOS.lower())
+
+# if envManaged:
+envInstall = PrepareEnv(foundOS.lower())
+dependenciesInstall = PreparePip()
+    # requirementInstall = 
 
 
 
