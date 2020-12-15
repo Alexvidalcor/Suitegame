@@ -1,0 +1,6 @@
+MainEnv/
+__pycache__/
+test.ipynb
+settings.json
+.vscode
+test.py
