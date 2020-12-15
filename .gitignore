@@ -4,3 +4,4 @@ test.ipynb
 settings.json
 .vscode
 test.py
+output/*

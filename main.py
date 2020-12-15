@@ -4,8 +4,7 @@ import os
 from src.args import *
 
 #Importación de juegos
-from Hangman import *
-from Minesweeper import *
+from src.ProgMain import *
 
 #Configuración de Argparse:
 args = Parser()
