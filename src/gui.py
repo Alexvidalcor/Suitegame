@@ -21,6 +21,10 @@ def MainGui():
         event, values = window.read()
         if event == "HANG":
             exec(open("src/ProgMain/HangMain.py").read())
+        if event == "MINE":
+            exec(open("src/ProgMain/MineMain.py").read())
+        if event == "SCHED":
+            exec(open("src/ProgMain/SchedMain.py").read())
         if event == "Exit" or event == sg.WIN_CLOSED:
             break
     window.Close()
