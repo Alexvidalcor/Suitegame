@@ -1,18 +1,18 @@
 # Suite Minigames
 
-_Recopilación de pequeños programas bajo una interfaz gráfica_
+_Recopilación de pequeños programas bajo una interfaz gráfica._
 
 
 ## Comenzando 🚀
 
-_Para SO basados en Debian y Fedora_
+_Para SO basados en Debian y Fedora._
 
-Ver **Deployment** para conocer como desplegar el proyecto.
+Ver **Despliegue** para conocer como desplegar el proyecto.
 
 
 ### Pre-requisitos 📋
 
-_Acceso a los recursos del repositorio_
+_Acceso a los recursos del repositorio:_
 
 ```
 git clone https://github.com/Alexvidalcor/SuiteMinigames
@@ -23,7 +23,7 @@ cd SuiteMinigames/
 
 ### Instalación 🔧
 
-_Pasos para instalación de entorno y ejecución de programa_
+_Pasos para instalación de entorno y ejecución de programa._
 
 * Caso distribuciones basadas en Debian:
 
@@ -36,12 +36,12 @@ python3 EnvCreate.py
 python EnvCreate.py
 ```
 
-Activar el entorno Python generado:
+_Activar el entorno Python generado:_
 
 ```
 source <NombreEntorno>/bin/activate
 ```
-Ejecución del programa
+_Ejecución del programa._
 
 * Caso distribuciones basadas en Debian:
 
@@ -58,9 +58,9 @@ python main.py
 
 ## Despliegue 📦
 
-Ejecutar el archivo "EnvCreate.py" para implementar un entorno virtual de Python con las dependencias necesarias (a través de "requirements.txt")
+Ejecutar el archivo "EnvCreate.py" para implementar un entorno virtual de Python con las dependencias necesarias (a través de "requirements.txt").
 
-Para desactivar el entorno de Python generado
+Para desactivar el entorno de Python generado:
 
 ```
 deactivate
@@ -75,7 +75,7 @@ deactivate
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia (GNU GPL-V3) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+Este proyecto está bajo la Licencia (GNU GPL-V3) - mira el archivo [LICENSE.md](LICENSE.md) para detalles.
 
 
 ## Agradecimientos ✒️
