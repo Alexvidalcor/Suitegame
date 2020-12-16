@@ -7,7 +7,7 @@ _Recopilación de pequeños programas bajo una interfaz gráfica_
 
 _Para SO basados en Debian y Fedora_
 
-Mira **Deployment** para conocer como desplegar el proyecto.
+Ver **Deployment** para conocer como desplegar el proyecto.
 
 
 ### Pre-requisitos 📋
@@ -22,6 +22,8 @@ cd SuiteMinigames/
 
 
 ### Instalación 🔧
+
+_Pasos para instalación de entorno y ejecución de programa_
 
 * Caso distribuciones basadas en Debian:
 
@@ -73,7 +75,7 @@ deactivate
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+Este proyecto está bajo la Licencia (GNU GPL-V3) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
 
 
 ## Agradecimientos ✒️
