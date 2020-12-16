@@ -3,12 +3,12 @@ import os
 import sys
 
 #Importación de módulos
-from src.ProgSupport import HangSupport
+from src.ProgSupport import HangSupport as hg
 
 #Elección de palabra inicial
-wordChosen = WordGenerator()
+wordChosen = hg.WordGenerator()
 resultCreate = ["_" for ele in range(len(list(wordChosen)))]
-hangmanGen = SelectHangman()
+hangmanGen = hg.SelectHangman()
 hangman = next(hangmanGen)
 print(f"{hangman[1]} \n {resultCreate}")
 
@@ -19,10 +19,10 @@ while True:
 
     #Invocación de resultados
     simplifyVars = [letterChosen, wordChosen, resultCreate, hangman, hangmanGen]
-    hangman, resultCreate, statusGame = ShowResults(*simplifyVars, correctCheck=GameCheck(*simplifyVars))
+    hangman, resultCreate, statusGame = hg.ShowResults(*simplifyVars, correctCheck=GameCheck(*simplifyVars))
     
     #Chequeo de finalización de juego
-    if endGame(statusGame, wordChosen) == True:
+    if hg.endGame(statusGame, wordChosen) == True:
         sys.exit(0)
     
     #Printeo de resultados
