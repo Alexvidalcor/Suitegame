@@ -80,7 +80,7 @@ Este proyecto está bajo la Licencia (GNU GPL-V3) - mira el archivo [LICENSE.md]
 
 ## Agradecimientos ✒️
 
-* **DrunkPsyduck** - *Testing* - [DrunkPsyduck](https://github.com/DrunkPsyduck)
+* **Mario Canales** - *Testing* - [DrunkPsyduck](https://github.com/DrunkPsyduck)
 
 
 ---
