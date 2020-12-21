@@ -1,4 +1,4 @@
-# Suite Minigames
+# [PROYECTO EN DESARROLLO] Suite Minigames
 
 _Recopilación de pequeños programas bajo una interfaz gráfica._
 
