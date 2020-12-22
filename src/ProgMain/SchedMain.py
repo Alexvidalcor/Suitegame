@@ -9,11 +9,11 @@ Hacemos lo que nos resulta mas intuitivo dada nuestra experiencia previa: hacer 
 '''
 
 #Importación de módulos
-from src.Support1 import *
+from src.ProgSupport import SchedSupport as ss
 
 #Generar archivo csv
-columns = FormatInput(input("Introduce nombre de columnas separados por comas: "))
-newTable = EmptyTableCreate(*columns)
+columns = ss.FormatInput(input("Introduce nombre de columnas separados por comas: "))
+newTable = ss.EmptyTableCreate(*columns)
 print(newTable)
 
 while True:
@@ -25,9 +25,9 @@ while True:
 
     #Insertar datos
     if mainCursor.lower() == "insertar":
-        columnSelect = FormatInput(input("Introduce Columnas a añadir datos: "))
+        columnSelect = ss.FormatInput(input("Introduce Columnas a añadir datos: "))
         value = input("Introduce un único valor para añadir: ")
-        newTable = InsertValues(newTable,value,columnSelect)
+        newTable = ss.InsertValues(newTable,value,columnSelect)
         print(newTable)
 
     #Mostrar tabla
@@ -37,32 +37,32 @@ while True:
 
     #Eliminar datos
     elif mainCursor.lower() =="eliminar":
-        modeSelect = FormatInput(input("¿Quieres eliminar una columna o una fila? (columna/fila/nada)"))[0]
+        modeSelect = ss.FormatInput(input("¿Quieres eliminar una columna o una fila? (columna/fila/nada)"))[0]
         print(modeSelect)
         if modeSelect.lower() == "columna":
-            selection = FormatInput(input("Introduce columnas a eliminar separadas por comas: "))
-            newTable = DropValues(newTable, selection,colsMode=1)
+            selection = ss.FormatInput(input("Introduce columnas a eliminar separadas por comas: "))
+            newTable = ss.DropValues(newTable, selection,colsMode=1)
         elif modeSelect.lower() == "fila":
-            selection = FormatInput(input("Introduce filas a eliminar separadas por comas: "))
-            newTable = DropValues(newTable, selection)
+            selection = ss.FormatInput(input("Introduce filas a eliminar separadas por comas: "))
+            newTable = ss.DropValues(newTable, selection)
         elif modeSelect.lower() == "nada":
             continue
         print(newTable)
 
     #Modificar datos
     elif mainCursor.lower() == "modificar":
-        selection = FormatInput(input("Selecciona celda a modificar (fila,columna/nada): "))
+        selection = ss.FormatInput(input("Selecciona celda a modificar (fila,columna/nada): "))
         if selection != "nada":
-            value = FormatInput(input("Introduce valor a modificar (valor)"))
-            newTable = ModValues(newTable,(selection), value[0])
+            value = ss.FormatInput(input("Introduce valor a modificar (valor)"))
+            newTable = ss.ModValues(newTable,(selection), value[0])
             print(newTable)
         else:
             continue
 
     #Ordenar datos
     elif mainCursor.lower() == "ordenar":
-        selection = FormatInput(input("Selecciona columnas a ordenar (columna/nada): "))
-        newTable = sortValues(newTable, selection)
+        selection = ss.FormatInput(input("Selecciona columnas a ordenar (columna/nada): "))
+        newTable = ss.sortValues(newTable, selection)
         print(newTable)
 
     #Forzar cierre de programa
@@ -74,7 +74,7 @@ while True:
     if ending.lower() =="s":
         howResult= input("Deseas guardar como excel o csv (Excel/CSV/Nada)")
         if howResult.lower() != "nada":
-            ending = GenerateOutput(newTable,howResult=True)
+            ending = ss.GenerateOutput(newTable,howResult=True)
         else:
             print("Programa cerrado sin output")
             break

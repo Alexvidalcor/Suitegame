@@ -1,3 +1,5 @@
+#Librerías Python empleadas
 pandas==1.1.5
 beautifulsoup4==4.9.3
 bs4==0.0.1
+PySimpleGUI
