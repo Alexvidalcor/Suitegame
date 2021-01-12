@@ -6,5 +6,7 @@ import os
 from src import gui
 
 #Inicio de programa
-gui.MainGui()
+if __name__ == "__main__":
+    gui.MainGui()
+
 

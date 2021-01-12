@@ -9,7 +9,7 @@ Hacemos lo que nos resulta mas intuitivo dada nuestra experiencia previa: hacer 
 '''
 
 #Importación de módulos
-from src.ProgSupport import SchedSupport as ss
+from ProgSupport import SchedSupport as ss
 
 #Generar archivo csv
 columns = ss.FormatInput(input("Introduce nombre de columnas separados por comas: "))

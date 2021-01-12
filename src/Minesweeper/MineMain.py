@@ -1,5 +1,5 @@
 #Módulos
-from src.ProgSupport import MineSupport as ms
+import MineSupport as ms
 
 movementsDone = []
 mineSaved = 0

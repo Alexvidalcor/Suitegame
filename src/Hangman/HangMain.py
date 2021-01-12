@@ -3,7 +3,7 @@ import os
 import sys
 
 #Importación de módulos
-from src.ProgSupport import HangSupport as hg
+import src.HangSupport as hg
 
 #Elección de palabra inicial
 wordChosen = hg.WordGenerator()
