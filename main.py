@@ -1,12 +1,13 @@
 
 #Importación de librerías
 import os
-
-#Importación de juegos
-from src import gui
+from src.args import parseator
 
 #Inicio de programa
 if __name__ == "__main__":
-    gui.MainGui()
+    
+    args = parseator()
 
+    if args.h:
+        print()
 
