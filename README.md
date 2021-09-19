@@ -31,7 +31,7 @@ git clone https://github.com/Alexvidalcor/SuiteMinigames
 cd SuiteMinigames/
 python3 src/install.py
 ./execute.sh
-'''
+```
 
 ## Construido con 🛠️
 
