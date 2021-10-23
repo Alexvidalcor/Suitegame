@@ -4,7 +4,7 @@ _Recopilación de programas independientes desarrollados en tiempo libre y englo
 
 Ahorcado         |  Buscaminas
 :-------------------------:|:-------------------------:
-![Hangman_CLI](https://github.com/Alexvidalcor/SuiteMinigames/blob/main/input/SuiteImgReadme.png?raw=true)  |  ![Minesweeper_CLI](https://raw.githubusercontent.com/Alexvidalcor/SuiteMinigames/main/input/SuiteImgReadme_2.png)
+![Hangman_CLI](https://github.com/Alexvidalcor/SuiteMinigames/blob/master/input/SuiteImgReadme.png?raw=true)  |  ![Minesweeper_CLI](https://raw.githubusercontent.com/Alexvidalcor/SuiteMinigames/master/input/SuiteImgReadme_2.png)
 
 ## Estado del proyecto ⚙️
 
