@@ -5,4 +5,5 @@ settings.json
 .vscode
 test.py
 output/*
-Minigames.code-workspace
+Suite.code-workspace
+

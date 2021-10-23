@@ -61,10 +61,13 @@ def SelectHangman():
      
 
 def WordGenerator():
-    page = requests.get("https://www.palabrasaleatorias.com/?fs=1&fs2=0&Submit=Nueva+palabra")
-    soup = BeautifulSoup(page.content, 'html.parser')
-    wordSearch = soup.find('div', style="font-size:3em; color:#6200C5;").get_text()
-    wordFormat = re.findall(r'[A-Z][a-z]+\b', wordSearch)[0]
+    try:
+        page = requests.get("https://www.palabrasaleatorias.com/?fs=1&fs2=0&Submit=Nueva+palabra")
+        soup = BeautifulSoup(page.content, 'html.parser')
+        wordSearch = soup.find('div', style="font-size:3em; color:#6200C5;").get_text()
+        wordFormat = re.findall(r'[A-Z][a-z]+\b', wordSearch)[0]
+    except Exception:
+        raise Exception("Sin conexión a internet")
 
     return wordFormat
 
