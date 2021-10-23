@@ -19,7 +19,7 @@ CLI global | OK
 
 _Descargar y ejecutar_
 
-```diff
+```
 EN DESARROLLO
 ```
 
