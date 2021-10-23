@@ -6,7 +6,7 @@ IMPORTANTE REVISAR DOCS DE ARGPARSE: https://docs.python.org/3/library/argparse.
 nameProg = "SuiteMinigames"
 usageProg = "%(prog)s [options]"
 epilogProg = "See you soon"
-defaultProg = "-hang"
+# defaultProg = "-hang"
 descProg = "Testing description"
 
 
@@ -16,10 +16,9 @@ def parseator():
     					epilog = epilogProg,
     					description=descProg
     					)
-    parser.add_argument("-hang", type=str,help="Ejecutar juego de arhorcado")
-    parser.add_argument("-mine", type=str,help="Ejecutar juego de buscaminas")
-    parser.add_argument("-sched", type=str,help="Ejecuta la aplicación de agenda")
-    parser.add_argument("-help", "--h", type=str,help="Mostrar la ayuda")
+    parser.add_argument("-hang", action='store_true',dest="hangman",help="Ejecutar juego de ahorcado")
+    parser.add_argument("-mine", action='store_true', dest="minesweeper", help="Ejecutar juego de buscaminas")
+    parser.add_argument("-sched", action='store_true', dest="scheduler", help="Ejecuta la aplicación de agenda")
     args = parser.parse_args()  
 
     return args
