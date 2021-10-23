@@ -10,7 +10,7 @@ Características         |  Estado
 Agenda  |  OK
 Ahorcado  |  OK
 Buscaminas  |  Parcial
-CLI decente | OK
+CLI global | OK
 
 
 ## Ejecución del programa 🚀
