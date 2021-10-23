@@ -2,6 +2,9 @@
 
 _Recopilación de programas independientes desarrollados en tiempo libre y englobados en una CLI._
 
+Ahorcado         |  Buscaminas
+:-------------------------:|:-------------------------:
+![Hangman_CLI](https://github.com/Alexvidalcor/SuiteMinigames/blob/main/input/SuiteImgReadme.png?raw=true)  |  ![Minesweeper_CLI](https://raw.githubusercontent.com/Alexvidalcor/SuiteMinigames/main/input/SuiteImgReadme_2.png)
 
 ## Estado del proyecto ⚙️
 
