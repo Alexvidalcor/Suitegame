@@ -1,6 +1,6 @@
 # Suite Minigames
 
-_Recopilación de pequeños programas bajo CLI._
+_Recopilación de programas bajo CLI._
 
 
 ## Estado del proyecto ⚙️
