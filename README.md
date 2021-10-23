@@ -1,4 +1,4 @@
-# [PROYECTO EN DESARROLLO] Suite Minigames
+# Suite Minigames
 
 _Recopilación de pequeños programas bajo CLI._
 
@@ -9,8 +9,8 @@ Características         |  Estado
 :-------------------------:|:-------------------------:
 Agenda  |  OK
 Ahorcado  |  OK
-Buscaminas  |  OK
-CLI decente | En desarrollo
+Buscaminas  |  Parcial
+CLI decente | OK
 
 
 ## Ejecución del programa 🚀
