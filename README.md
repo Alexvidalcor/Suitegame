@@ -2,7 +2,7 @@
 
 _Recopilation of independent programs developed in free time and collected in a CLI._
 
-Hanged | Business
+Hanged | Minesweeper
 :----------------------:|:---------------------------------------:
 ![Hangman_CLI](https://github.com/Alexvidalcor/SuiteMinigames/blob/master/input/SuiteImgReadme.png?raw=true)  |  ![Minesweeper_CLI](https://raw.githubusercontent.com/Alexvidalcor/SuiteMinigames/master/input/SuiteImgReadme_2.png)
 
