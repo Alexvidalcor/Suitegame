@@ -12,7 +12,7 @@ Characteristics | State
 :----------------------:|:---------------------------------------:
 Agenda | okay
 Hanged | okay
-Business | Partial
+Minesweeper | Partial
 Global CLI | okay
 
 
