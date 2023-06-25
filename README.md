@@ -47,7 +47,7 @@ This project is under the license (GNU GPL -V3) - Look at the [License.md] (Lice
 
 ## Acknowledgments ✒️
 
-* **Mario Canales** -*Testing* - [drunkpsyduck](https://github.com/drunkpsydudu)
+* **Mario Canales** - *Testing* - [drunkpsyduck](https://github.com/drunkpsydudu)
 
 
 ---
