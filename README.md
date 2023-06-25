@@ -43,7 +43,7 @@ python3 src/install.py
 
 ## License 📄
 
-This project is under the license (GNU GPL -V3) - Look at the [License.md] (License.md) file for details.
+This project is under the license (GNU GPL -V3) - Look at the [License.md](License.md) file for details.
 
 ## Acknowledgments ✒️
 
