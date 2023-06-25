@@ -1,57 +1,54 @@
 # Suite Minigames
 
-_Recopilación de programas independientes desarrollados en tiempo libre y englobados en una CLI._
+_Recopilation of independent programs developed in free time and collected in a CLI._
 
-Ahorcado         |  Buscaminas
-:-------------------------:|:-------------------------:
-![Hangman_CLI](https://github.com/Alexvidalcor/SuiteMinigames/blob/master/input/SuiteImgReadme.png?raw=true)  |  ![Minesweeper_CLI](https://raw.githubusercontent.com/Alexvidalcor/SuiteMinigames/master/input/SuiteImgReadme_2.png)
+Hanged | Business
+: ----------------------: |: ---------------------------------------:
+! [Hangman_cli] (https://github.com/alexvidalcor/suiteminigames/blob/master/input/suiteimgreadme.png?raw=true) | ! [Minesweeper_cli] (https://raw.githubusercontent.com/alexvidalcor/suiteminigames/master/input/suiteimgreadme_2.png)
 
-## Estado del proyecto ⚙️
+## Project status ⚙️
 
-Características         |  Estado
-:-------------------------:|:-------------------------:
-Agenda  |  OK
-Ahorcado  |  OK
-Buscaminas  |  Parcial
-CLI global | OK
+Characteristics | State
+: ----------------------: |: ---------------------------------------:
+Agenda | okay
+Hanged | okay
+Business | Partial
+CLI Global | okay
 
 
-## Ejecución del programa 🚀
+## Program Execution 🚀
 
-### Windows 
+### Windows
 
-_Descargar y ejecutar_
+_Download and execute_
 
-```
-EN DESARROLLO
-```
+``
+DEVELOPING
+``
 
-### Distribución de Linux basada en Debian 
+### Linux distribution based on Debian
 
-_Pasos a seguir (comandos de terminal):_
+_Steps to follow (terminal commands): _
 
-```
-git clone https://github.com/Alexvidalcor/SuiteMinigames
-cd SuiteMinigames/
+``
+git clone https://github.com/alexvidalcor/suiteminigames
+cd suiteminigames/
 python3 src/install.py
 ./execute.sh
-```
+``
 
-## Construido con 🛠️
+## Built with 🛠️
 
-* [Virtualenv](https://virtualenv.pypa.io/en/latest/) - Virtualizar entorno Python
-* [PySimpleGui](https://pysimplegui.readthedocs.io/en/latest/) - Interfaz gráfica
+* [Virtualenv] (https://virtualenv.pypa.io/en/latest/) - Virtualize Python environment
 
+## License 📄
 
-## Licencia 📄
+This project is under the license (GNU GPL -V3) - Look at the [License.md] (License.md) file for details.
 
-Este proyecto está bajo la Licencia (GNU GPL-V3) - mira el archivo [LICENSE.md](LICENSE.md) para detalles.
+## Acknowledgments ✒️
 
-
-## Agradecimientos ✒️
-
-* **Mario Canales** - *Testing* - [DrunkPsyduck](https://github.com/DrunkPsyduck)
+*** Mario Canales ** -*Testing* - [drunkpsyduck] (https://github.com/drunkpsydudu)
 
 
 ---
-⌨️ con ❤️ por [Alexvidalcor](https://github.com/Alexvidalcor) 😊
+⌨️ with ❤️ by [Alexvidalcor] (https://github.com/alexvidalcor) 😊
