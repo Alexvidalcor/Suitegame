@@ -28,7 +28,7 @@ DEVELOPING
 
 ### Linux distribution based on Debian
 
-_Steps to follow (terminal commands): _
+_Steps to follow (terminal commands):_
 
 ```
 git clone https://github.com/alexvidalcor/suiteminigames
@@ -39,7 +39,7 @@ python3 src/install.py
 
 ## Built with 🛠️
 
-* [Virtualenv] (https://virtualenv.pypa.io/en/latest/) - Virtualize Python environment
+* [Virtualenv](https://virtualenv.pypa.io/en/latest/) - Virtualize Python environment
 
 ## License 📄
 
