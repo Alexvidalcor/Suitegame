@@ -3,13 +3,13 @@
 _Recopilation of independent programs developed in free time and collected in a CLI._
 
 Hanged | Business
-: ----------------------: |: ---------------------------------------:
-! [Hangman_cli] (https://github.com/alexvidalcor/suiteminigames/blob/master/input/suiteimgreadme.png?raw=true) | ! [Minesweeper_cli] (https://raw.githubusercontent.com/alexvidalcor/suiteminigames/master/input/suiteimgreadme_2.png)
+:----------------------:|:---------------------------------------:
+![Hangman_CLI](https://github.com/Alexvidalcor/SuiteMinigames/blob/master/input/SuiteImgReadme.png?raw=true)  |  ![Minesweeper_CLI](https://raw.githubusercontent.com/Alexvidalcor/SuiteMinigames/master/input/SuiteImgReadme_2.png)
 
 ## Project status ⚙️
 
 Characteristics | State
-: ----------------------: |: ---------------------------------------:
+:----------------------:|:---------------------------------------:
 Agenda | okay
 Hanged | okay
 Business | Partial
@@ -30,12 +30,12 @@ DEVELOPING
 
 _Steps to follow (terminal commands): _
 
-``
+```
 git clone https://github.com/alexvidalcor/suiteminigames
 cd suiteminigames/
 python3 src/install.py
 ./execute.sh
-``
+```
 
 ## Built with 🛠️
 
@@ -47,7 +47,7 @@ This project is under the license (GNU GPL -V3) - Look at the [License.md] (Lice
 
 ## Acknowledgments ✒️
 
-*** Mario Canales ** -*Testing* - [drunkpsyduck] (https://github.com/drunkpsydudu)
+* **Mario Canales** -*Testing* - [drunkpsyduck] (https://github.com/drunkpsydudu)
 
 
 ---
