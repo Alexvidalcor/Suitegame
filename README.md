@@ -13,7 +13,7 @@ Characteristics | State
 Agenda | okay
 Hanged | okay
 Business | Partial
-CLI Global | okay
+Global CLI | okay
 
 
 ## Program Execution 🚀
