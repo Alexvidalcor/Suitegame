@@ -8,7 +8,7 @@ Hanged | Minesweeper
 
 ## Project status ⚙️
 
-Characteristics | State
+Minigames | Status
 :----------------------:|:---------------------------------------:
 Agenda | okay
 Hanged | okay
